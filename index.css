@@ -1,0 +1,78 @@
+.jumbotron{
+    background-image: url(https://images.unsplash.com/photo-1504917595217-d4dc5ebe6122?ixid=MXwxMjA3fDB8MHxwaG90by1wYWdlfHx8fGVufDB8fHw%3D&ixlib=rb-1.2.1&auto=format&fit=crop&w=1050&q=80);
+    filter: grayscale(20%);
+}
+
+body{
+    height: 100%;
+    background-color:white;
+    font-family: 'Roboto Slab', serif;
+    text-align: center;
+}
+
+.open{
+    
+    height: 52rem;
+    background-image: url(https://images.unsplash.com/photo-1533414417583-f0ab99151186?ixid=MXwxMjA3fDB8MHxwaG90by1wYWdlfHx8fGVufDB8fHw%3D&ixlib=rb-1.2.1&auto=format&fit=crop&w=1050&q=80);
+    background-repeat: no-repeat;
+    background-position: center;
+    background-size: cover;
+    margin-bottom: 3rem;
+    
+}
+
+
+h1{
+    padding-top: 15rem;
+    color: white;
+    text-shadow: 2px 2px 4px #000000;
+}
+
+.lead{
+  padding-bottom: 40rem;
+  color: white;
+  text-shadow: 2px 2px 4px #000000;
+}
+
+.block1-1 {
+    background-color: darkgrey;
+}
+.block1-2 {
+    background-color: black;
+}
+
+.block2-1 {
+    background-color: darkgrey;
+}
+.block2-2 {
+    background-color: black;
+}
+
+.block3-1 {
+    background-color: darkgrey;
+}
+.block3-2 {
+    transition: box-shadow .3s;
+    background-color: white;
+    border: solid;
+    border-color:whitesmoke;
+    border-width: 0.5px;
+    border-radius: 1rem;
+    padding-top: 2rem;
+    margin-bottom: 2rem;
+    
+}
+
+.block3-2:hover{
+    box-shadow: 10px 10px 10px #ccc;
+      -moz-box-shadow: 10px 10px 5px #ccc;
+      -webkit-box-shadow: 10px 10px 5px #ccc;
+      -khtml-box-shadow: 10px 10px 5px #ccc;
+}
+
+
+.block3 img{
+    height: 10rem;
+    width: 13rem;
+    border-radius: 9rem;
+}
